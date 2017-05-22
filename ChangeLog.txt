@@ -1,0 +1,43 @@
+Oct 22, 2014: Joel
+  1) Fixed all menus to work with click, spacebar and joystick button
+  2) Changed log files names to 1) include user name and 2) drop seconds
+  3) Fixed in game keyboard arrow controls to not require two presses when 
+     changing direction if the new
+     direction is pressed before the old direction is released.
+  4) Attempted to make game difficultly level more responsive to player skill.
+  5) Lightened the player Ammo count graphic.
+
+Oct 23, 2014: Marcos
+  1) Added particle effects for collecting star and ammo box.
+
+Oct 24, 2014: Joel
+  Changes to log file:
+  1) Changed times to seconds and added a significant figure 
+     (using a more accurate time measure).
+  2) Changed  column 9 from "Collision" to "trigger" and it now is the trigger 
+     value sent to the parallel port.
+
+Nov 20, 2014: Joel
+ 
+1) Changed straight enemy sprite.
+
+2) Doubled health gained from catching a star.
+
+3) Decreased damage from enemy hits.
+
+4) If the player has suffered damage within the last 15 seconds AND there is at least one enemy on screen, then another enemy will not spawn.
+
+5) Multi-enemy screens will happen when the player is doing well.
+
+6) Ammo boxes are more common.
+
+7) Follow enemies move a bit faster and a bit smarter, but stop chasing when past you - this should make analysis simpler.
+
+8) Player gets points for avoiding enemies (in past, player only got points for missile hits).
+
+9) Added more randomness to enemy speed.
+
+10) Smartened enemies so they do not have so many friendly crashes, but this still needs more work.
+
+
+  
